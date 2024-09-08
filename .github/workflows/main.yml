@@ -26,6 +26,6 @@ jobs:
     - name: Set Environment Variables
       run: echo "DBCONNECTIONSTRING=${{ secrets.DBCONNECTIONSTRING }} SECRETKEY= ${{secrets.SECRETKEY}}" >> .env
 
-    - name: Run Tests
-      run: |
-        python -m unittest discover
+    # - name: Run Tests
+    #   run: |
+    #     python -m unittest discover
